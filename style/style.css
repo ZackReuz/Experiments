@@ -1,0 +1,41 @@
+    body {
+        background-color: #000000;
+    }
+    
+    #red {
+        margin: 40px;
+        background-color: red;
+        display: flex;
+        height: 60vh;
+        width: 50%;
+        color: red;
+    }
+    
+    #blue {
+        margin: 20px;
+        height: 170px;
+        width: 130px;
+        background-color: blue;
+        color: blue;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #vred {
+        margin: 140px 40px 40px 40px;
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+        width: 50%;
+        color: red;
+    }
+    
+    #vblue {
+        background-color: blue;
+        color: blue;
+        display: flex;
+        height: 10%;
+        width: 90%;
+        margin: 30px;
+    }
