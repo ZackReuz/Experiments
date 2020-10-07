@@ -2,40 +2,47 @@
         background-color: #000000;
     }
     
-    #red {
-        margin: 40px;
+    #redparent {
         background-color: red;
-        display: flex;
-        height: 60vh;
-        width: 50%;
         color: red;
+        margin: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        width: 100%;
     }
     
     #blue {
-        margin: 20px;
-        height: 170px;
-        width: 130px;
         background-color: blue;
         color: blue;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    #vred {
-        margin: 140px 40px 40px 40px;
-        background-color: red;
+        margin: 30px;
+        margin-left: 40px;
         display: flex;
         flex-direction: column;
-        height: 60vh;
-        width: 50%;
-        color: red;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        height: 80%;
+        width: 45%;
     }
     
-    #vblue {
-        background-color: blue;
-        color: blue;
-        display: flex;
-        height: 10%;
-        width: 90%;
+    #green {
+        background-color: green;
+        color: green;
         margin: 30px;
+        height: 80%;
+        width: 45%;
+    }
+    
+    #yellowchild {
+        background-color: yellow;
+        color: yellow;
+        display: flex;
+        margin-top: 15;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        height: 40%;
+        width: 85%;
     }
